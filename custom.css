@@ -1,0 +1,180 @@
+body {
+    background-image:url("https://images.shiksha.com/mediadata/images/1544521434phpY8m2KM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+.box {
+    background: rgba(255,255,255,0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    padding: 32px 24px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+body {
+    background-image:url("https://images.shiksha.com/mediadata/images/1544521434phpY8m2KM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #f8f9fa;
+    margin-bottom: 24px;
+    text-shadow: 1px 1px 4px #000;
+}
+.author-link {
+    color: #ffe066;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.author-link:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+/* ...existing code... */
+#pass-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 48px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    word-break: break-all;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1.5px solid #ccc;
+}
+#pass-box:hover{
+    background-color: #afacac;
+}
+/* ...existing code... */
+.copy-btn {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.copy-btn:hover {
+    background: #0056b3;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.left {
+    font-size: 1rem;
+}
+.right input[type="number"] {
+    width: 60px;
+    padding: 4px;
+    font-size: 1rem;
+}
+.right input[type="checkbox"] {
+    transform: scale(1.2);
+}
+#btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#btn:hover {
+    background: #1e7e34;
+}
+.one {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 1px 1px 6px #000;
+}
+.two {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #f8f9fa;
+    margin-bottom: 24px;
+    text-shadow: 1px 1px 4px #000;
+}
+.three {
+    display: block;
+    margin: 24px auto 0 auto;
+    padding: 10px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #343a40;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.three a {
+    color: #fff;
+    text-decoration: none;
+}
+.three:hover {
+    background: #23272b;
+}
+@media (max-width: 600px) {
+    .main {
+        padding: 10px;
+    }
+    .box {
+        padding: 18px 8px;
+        max-width: 98vw;
+    }
+    .one {
+        font-size: 1.3rem;
+        margin-top: 16px;
+    }
+    .two {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+    }
+    #pass-box {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .three {
+        font-size: 0.95rem;
+        padding: 8px 12px;
+    }
+    .row .left {
+        font-size: 0.95rem;
+    }
+    #btn, .copy-btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
